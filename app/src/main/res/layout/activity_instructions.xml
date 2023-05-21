@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="Instrucciones del juego" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewInstruction1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="1. ¡Prepárate para poner a prueba tu ingenio en este desafío real de las 8 reinas!" />
+
+            <TextView
+                android:id="@+id/textViewInstruction2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="2. Tu misión es colocar las 8 reinas en el tablero sin que se estén amenazando entre sí. ¡Sin disputas reales en este reino, por favor!" />
+
+            <TextView
+                android:id="@+id/textViewInstruction3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="3. ¿Cómo se hace eso? Fácil. Elige una celda vacía para coronarla como la morada de una reina. ¡Ah, qué honor!" />
+
+            <TextView
+                android:id="@+id/textViewInstruction4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="4. Pero espera, no creas que las reinas se quedan quietas y no hacen nada. No, no, no. Una vez que colocas una reina, las celdas que ella domina se iluminarán, para que todos sepan quién manda ahí." />
+
+            <TextView
+                android:id="@+id/textViewInstruction5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="5. Pero cuidado, intrépido jugador, no desafíes las reglas sagradas del reino. No intentes colocar una reina en una celda que ya está ocupada, porque eso sería como tratar de entrar al castillo sin una invitación. ¡Error, error, no puedes hacer eso!" />
+
+            <TextView
+                android:id="@+id/textViewInstruction6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="6. ¡Pero no te preocupes! Si cometes un error o simplemente cambias de opinión (las reinas pueden ser un poco temperamentales), puedes destituir a una reina con un toque mágico. La celda quedará vacía y podrás intentar con una nueva candidata real." />
+
+            <TextView
+                android:id="@+id/textViewInstruction7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="7. Ahora, aquí viene la parte emocionante. Utiliza tu astucia, tu estrategia y tal vez un poco de magia (si la tienes a mano) para colocar las reinas de manera inteligente. Recuerda, ninguna reina puede estar en la misma fila, columna o diagonal que otra. ¡Evitemos el drama real en el reino!" />
+
+            <TextView
+                android:id="@+id/textViewInstruction8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="8. Y cuando finalmente lo logres, cuando todas las reinas estén en su lugar sin ningún conflicto, los cielos se abrirán y los coros cantarán en tu honor. ¡Serás coronado como el rey o la reina del juego de las 8 reinas! ¡Imagina la gloria!" />
+
+            <TextView
+                android:id="@+id/textViewInstruction9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="9. Así que adelante, noble jugador, adéntrate en este reino de diversión y desafío. ¡Deja que el espíritu real te guíe y que las risas estén siempre contigo!" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
